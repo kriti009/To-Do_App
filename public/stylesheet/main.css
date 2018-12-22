@@ -1,3 +1,4 @@
+
 body{
 	font-family: 'Roboto';
 
@@ -18,11 +19,11 @@ span{
 	opacity: 0;
 }
 
-li:hover span{
+.indexl:hover span{
 	width: 40px;
 	opacity: 1.0;
 }
-li:nth-child(2n){
+.indexl:nth-child(2n){
 	background-color: #f7f7f7;
 }
 
@@ -37,11 +38,11 @@ li:nth-child(2n){
 	color : gray;
 	text-decoration: line-through;
 }
-ul{
+.indexu{
 	margin : 0;
 	padding: 0;
 }
-li{
+.indexl{
 	list-style: none;  /*can also use list-style-type*/
 	background-color: white;
 	height: 40px;
@@ -75,4 +76,14 @@ input:focus{
 	background-color: white;
 	border : 3px solid #2980b9;
 	outline: none;
+}
+.button1 , .button1:hover, .button1:active , .button1:focus{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    opacity: 1.0;
 }

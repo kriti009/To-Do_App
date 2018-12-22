@@ -1,8 +1,8 @@
-$("ul").on("click" ,"li", function(){    //run code when li is clicked inside of ul
+$(".indexu").on("click" ,"indexl", function(){    //run code when li is clicked inside of ul
 	$(this).toggleClass("completed");
 });
 
-$("ul").on("click","span", function(event){  //run code when span is clicked inside ul
+$("indexu").on("click","span", function(event){  //run code when span is clicked inside ul
 	// $(this).parent().remove();
 	$(this).parent().fadeOut(500, function(){
 		$(this).remove();
